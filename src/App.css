@@ -1,0 +1,89 @@
+:root{
+  /* colors  */
+  --Link-color : #212B36;
+
+  /* font faimly  */
+  
+
+  /* fonts  */
+  --noraml-fonts : 1rem;
+  --norma-fonts : 0.9rem;
+  --h5-size : 1.5rem;
+}
+section.header {
+  box-shadow: 0 0px 15px 0 rgb(0 0 0 / 5%);
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  background: #fff;
+  border-bottom: 1px solid transparent;
+  height: 60px;
+  z-index: 999;
+}
+
+.logo-wrappper {
+  padding: 6px 10px;
+}
+
+.logo-wrappper img {
+  width: 140px;
+}
+
+.menu-wrapper ul {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.menu-wrapper ul li {
+  list-style-type: none;
+}
+
+.profile img,
+.profileSet img {
+  width: 38px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.Language>img {
+  width: 38px;
+}
+.menu-wrapper ul li .profile,
+.menu-wrapper ul li .notification,
+.menu-wrapper ul li .Language,
+.menu-wrapper ul li .search
+ {
+  display: block;
+  color : var(--Link-color);
+  padding: 0 15px;
+  line-height: 50px;
+  padding: 0 5px;
+  margin: 0 4px;
+  cursor: pointer;
+  height: 60px;
+}
+.user-info h6 {
+  font-size: 14px;
+  color: #212B36;
+  font-weight: 500;
+}
+.user-info h5 {
+  font-size: 14px;
+  color: #637381;
+}
+.profileName {
+  position: absolute;
+  top: 85%;
+  right: 1%;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  min-width: 160px;
+  padding: 8px 0;
+}
+.profileSet {
+  padding: 10px 10px 3px;
+  display: flex;
+}
